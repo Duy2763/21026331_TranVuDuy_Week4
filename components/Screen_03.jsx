@@ -48,7 +48,7 @@ export default function Screen_03() {
                    <View>
                         <Image
                             style={{width: '100%'}}
-                            source={require('../assets/images/Image 20.png')}
+                            source={require('../assets/images/Image20.png')}
                         />
 
                         <View style={{backgroundColor: '#F9FAFC', height: '100%', borderRadius: 7, marginTop: -7, padding: 20}}>

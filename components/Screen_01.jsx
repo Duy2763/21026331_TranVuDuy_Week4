@@ -1,6 +1,6 @@
 import { StyleSheet, TouchableOpacity } from "react-native";
 import { Text, View , Image, SafeAreaView} from "react-native";
-import image from '../assets/images/Container 17.png'
+import image from '../assets/images/Container17.png'
 import { useNavigation } from "@react-navigation/native";
 
 export default function Screen_01() {
@@ -30,7 +30,7 @@ export default function Screen_01() {
                     <View style={{alignItems: 'center', marginTop: 10}}>
                         <Image
                             style={{width: 46, height: 12}}
-                            source={require('../assets/images/....png')}
+                            source={require('../assets/images/bacham.png')}
                         />
                     </View>
                 </View>

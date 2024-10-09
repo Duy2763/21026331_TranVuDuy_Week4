@@ -1,7 +1,7 @@
 import Toast from 'react-native-toast-message';
 import { Alert, Keyboard, KeyboardAvoidingView, Platform, SafeAreaView, StyleSheet, TextInput, TouchableOpacity, TouchableWithoutFeedback } from "react-native";
 import { Text, View , Image } from "react-native";
-import imageLogo from '../assets/images/Image 19.png';
+import imageLogo from '../assets/images/Image19.png';
 import Checkbox from "expo-checkbox";
 import { useState } from "react";
 import { useAccount } from "../ContextAPI/AccountContext";

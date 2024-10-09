@@ -6,10 +6,10 @@ import AwesomeAlert from 'react-native-awesome-alerts';
 
 export default function Screen_04() {
     const images = [
-        {url: require('../assets/images/Container 7 (2).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
-        {url: require('../assets/images/Container 7 (1).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
-        {url: require('../assets/images/Container 7 (3).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
-        {url: require('../assets/images/Container 7.png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
+        {url: require('../assets/images/Container7(2).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
+        {url: require('../assets/images/Container7(1).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
+        {url: require('../assets/images/Container7(3).png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
+        {url: require('../assets/images/Container7.png'), priceXS: 1.99, priceS: 2.99, priceM: 3.99, priceL: 4.99, priceXL: 5.99},
     ]
     const sizes = [
         'XS', 'S', 'M', 'L', 'XL'
@@ -24,7 +24,7 @@ export default function Screen_04() {
     };
 
     const navigation = useNavigation();
-    const [imgCurrent, setImgCurrent] = useState(require('../assets/images/Container 7 (3).png'));
+    const [imgCurrent, setImgCurrent] = useState(require('../assets/images/Container7(3).png'));
     const [indexSelected, setIndexSelected] = useState(2);
     const [priceCurrent, setPriceCurrent] = useState(4.99);
     const [totalCurrent, setTotalCurrent] = useState(4.99);
@@ -103,7 +103,7 @@ export default function Screen_04() {
                                 </View>
                                 <View style={{flexDirection: 'row', alignItems: 'center', gap: 4}}>
                                     <Image
-                                        source={require('../assets/images/Rating 3.png')}
+                                        source={require('../assets/images/Rating3.png')}
                                     />
                                     <Text>4.5</Text>
                                 </View>
@@ -260,3 +260,4 @@ const styles = StyleSheet.create({
         color: 'gray'
     }
 })
+
