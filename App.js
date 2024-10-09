@@ -2,10 +2,10 @@ import React from 'react';
 import { StyleSheet, Text, View, SafeAreaView } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import Screen_01 from './components/Screen_01';
-import Screen_02 from './components/Screen_02';
-import Screen_03 from './components/Screen_03';
-import Screen_04 from './components/Screen_04';
+import Screen_01 from './components/Screen_01.jsx';
+import Screen_02 from './components/Screen_02.jsx';
+import Screen_03 from './components/Screen_03.jsx';
+import Screen_04 from './components/Screen_04.jsx';
 import { AccountProvider } from './ContextAPI/AccountContext';
 
 export default function App() {
